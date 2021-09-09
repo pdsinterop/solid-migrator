@@ -6,9 +6,9 @@ The most all-encompassing solution today has to be the [internet archive](https:
 
 The Internet Archive isn't the only archive out there, but it is the most well-known and longest running. Other archives are:
 
-- (//archive.today)
-- (//perma.cc) [looked at seperately here](perma.md)
-- (//timetravel.mementoweb.org/)
+- (http://archive.today)
+- (http://perma.cc) [looked at seperately here](perma.md)
+- (http://timetravel.mementoweb.org/)
 
 ## Pro's
 
