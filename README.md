@@ -38,4 +38,4 @@ Linkrot is already a large problem for the current web. In 2003 an article in th
 
 ## Prototype Solid Migrator Application
 
-## Specification changes
+## Proposed Specification Changes
