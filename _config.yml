@@ -18,6 +18,9 @@ exclude:
 
 plugins:
   - github-pages
+  - jekyll-github-metadata
+  - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Extend the Docs settings (see https://pother.ca/extend-the-docs/)
 nav:
