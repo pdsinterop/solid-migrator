@@ -9,6 +9,7 @@ The Internet Archive isn't the only archive out there, but it is the most well-k
 - (http://archive.today)
 - (http://perma.cc) [looked at seperately here](perma.md)
 - (http://timetravel.mementoweb.org/)
+- (https://conifer.rhizome.org/)
 
 ## Pro's
 
@@ -18,5 +19,5 @@ The Internet Archive isn't the only archive out there, but it is the most well-k
 ## Con's
 
 - Single organization, so it isn't a decentralized solution
-- There is no good way to induce it to take a snapshot
+- There is no good way to induce the internet archive to take a snapshot. Conifer (previously webrecorder.io) is an exception here.
 - Only works on complete files / datasets
