@@ -40,7 +40,7 @@ Linkrot is already a large problem for the current web. In 2003 an article in th
 
 ## Prototype Solid Migrator Application
 
-We're building the solid migrator as a set of [solid application tutorials](https://github.com/pdsinterop/simply-solid-app-tutorials) first. We found that all code examples for solid are either outdated or use a very complex toolchain setup.
+We're building the solid migrator as a set of [solid application tutorials](https://github.com/pdsinterop/simply-solid-app-tutorials) first. We found that all code examples for solid are either outdated or use a very complex toolchain setup. You can testdrive the latest version at https://pdsinterop.org/simply-solid-app-tutorials/07.%20List%20Contents%20from%20Multiple%20Pods/
 
 ## Proposed Specification Changes
 
