@@ -1,4 +1,4 @@
-# Solid Migrator: Possible Solutions: decentralized caching
+# Solid Migrator: Possible Solutions: Decentralized caching
 
 The idea is that whenever you link to an external resource, you have the option to store a cache of the current contents of that resource somewhere else. You can then add information about that alternative source to the original link. When an application accessess your link and the external resource isn't available or valid anymore, they can choose to access the cached version instead.
 
