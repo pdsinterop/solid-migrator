@@ -17,10 +17,10 @@ Linkrot is already a large problem for the current web. In 2003 an article in th
 Based on the research mentioned below (see the "Research" section) we've formulated
 what is [out of scope (things we won't do)](out-of-scope.md) and several possible solutions:
 
-1. [Forwarding in the Data](Possible Solutions/1-forwarding.md)
-2. [HTTP Status Codes](Possible Solutions/2-http.md)
-3. [Meta data pod](Possible Solutions/3-meta-pod.md)
-4. [Decentralized Archive/Cache](Possible Solutions/4-decentralized-cache.md)
+1. [Forwarding in the Data](Solutions/1-forwarding.md)
+2. [HTTP Status Codes](Solutions/2-http.md)
+3. [Meta data pod](Solutions/3-meta-pod.md)
+4. [Decentralized Archive/Cache](Solutions/4-decentralized-cache.md)
 
 These solutions lead to the insight that two things _must_ be created in order to
 solve the problem: a **specification** and an **application**.
@@ -43,12 +43,12 @@ and how it can be mitigated. Further details are available on separate pages:
 
 ### Existing attempts to mitigate linkrot
 
-- [HTTP 300 Status and Location Header](Linkrot Mitigation/http.md)
-- [The Internet Archive and Wayback Machine](Linkrot Mitigation/internet-archive.md)
-- [DOI.org and PURL.org](Linkrot Mitigation/url-redirect.md)
-- [Perma.cc](Linkrot Mitigation/perma.md)
-- [IPFS and IPNS (and NDN)](Linkrot Mitigation/ipfs.md)
-- [Memento](Linkrot Mitigation/memento.md)
+- [HTTP 300 Status and Location Header](Research/http.md)
+- [The Internet Archive and Wayback Machine](Research/internet-archive.md)
+- [DOI.org and PURL.org](Research/url-redirect.md)
+- [Perma.cc](Research/perma.md)
+- [IPFS and IPNS (and NDN)](Research/ipfs.md)
+- [Memento](Research/memento.md)
 
 ## Team
 
