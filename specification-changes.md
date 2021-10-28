@@ -15,9 +15,14 @@ In addition we may need to define
 
 A link in all these cases can be a full file URL, or an entry inside a file referenced by a #id.
 
+We're working on a new Linked Data Platform: Links (ldpl) ontology here: [https://github.com/pdsinterop/solid-link-metadata/](https://github.com/pdsinterop/solid-link-metadata/). The idea is that this ontology can be used in any linked data dataset, and applications using that data will know how to use this information to follow redirects or use archived copies. But more specifically we'll add support for this ontology in the PHP Solid Server and the Nextcloud Solid Server projects, so that if you upload a [.meta file](https://github.com/solid/solid-spec/blob/master/content-representation.md#metadata) with this information in it, the server will send appropriate HTTP redirect headers.
+
+## Why do we need another ontology?
+
 When researching if any current ontology comes close to this. There is the [`owl:sameAs`]() verb, but that is more commonly understood to say that two terms describe the same concept. But they may not be identical. Even worse, [the current use is not consistent](https://www.w3.org/2009/12/rdf-ws/papers/ws21).
 
-There is another verb currently in use, but not in the normal semantic web, only to add information to webpages for use by search engines: the [`&lt;link rel="canonical"&gt;`](https://en.wikipedia.org/wiki/Canonical_link_element) tag. There is no RDF ontology for this term.
+There is another verb currently in use, but not in the normal semantic web, only to add information to webpages for use by search engines: the [`&lt;link rel="canonical"&gt;`](https://en.wikipedia.org/wiki/Canonical_link_element) tag. This is defined in the ['link relations' ontology](https://www.w3.org/2007/ont/link#) - see also [https://www.w3.org/2005/05/hrel/](https://www.w3.org/2005/05/hrel/). However this ontology is specifically written to define link types used in &lt;link rel="X"&gt; form, in e.g. HTML documents. Adding a 'redirect' type here seems wrong or at least counter-intu&iuml;tive. The link relations ontology can be found here: [https://www.w3.org/ns/iana/link-relations/relation](https://www.w3.org/ns/iana/link-relations/relation).
+
 
 Finally there is a [rdfs:seeAlso](https://www.w3.org/TR/rdf-schema/#ch_seealso), but its domain is the RDF Schema itself. It is mostly used to definte terms useful in performing simple reasoning over RDF graphs. It is therefor too generic for our usecase.
 
