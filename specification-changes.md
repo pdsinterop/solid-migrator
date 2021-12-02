@@ -1,6 +1,6 @@
 # Solid Migrator: Proposed Specification Changes
 
-Of the proposed solutions, some require additions to one or more Solid specification. But the most basic specification is to create a new ontology that defines the semantics of forwarding. Specifically we need to define the semantics for:
+Of the [proposed solutions](./Solutions), some require additions to one or more Solid specification. But the most basic specification is to create a new ontology that defines the semantics of forwarding. Specifically we need to define the semantics for:
 
 1. This link is forwarded temporarily to X.
 2. This link is forwarded permanently to X.
